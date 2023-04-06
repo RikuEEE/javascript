@@ -97,5 +97,8 @@
  var numbers = [1,"rinku",3,"tinku",5,6,7,"jinku",9,10];
  console.log(numbers.length);
 
- 
 
+                            // object
+
+
+    
