@@ -94,11 +94,37 @@
 
                // array
 
- var numbers = [1,"rinku",3,"tinku",5,6,7,"jinku",9,10];
- console.log(numbers.length);
+//  var numbers = [1,"rinku",3,"tinku",5,6,7,"jinku",9,10];
+//  console.log(numbers.length);
 
 
                             // object
 
 
-    
+
+
+var company = {
+ name: "RickIT",
+ since: 2023,
+ nish: "IT"
+}
+console.log(company.nish);
+
+
+
+
+
+                            // function
+
+
+function sum (num1, num2){
+     result= num1+ num2;
+    // console.log("the result is ", num1+num2);
+    return result;
+
+}    
+ totalsum=sum(10, 20);
+console.log(totalsum);
+
+// when to use return?, when u need the return factor to as an another variable in the code.
+
